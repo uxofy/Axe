@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "autoaxe",
+  "version": "${version}",
+  "name": "AutoAxe",
+  "description": "Double attack per tick when targeting a blocking player with an axe.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.autoaxe.AutoAxeClient"]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
